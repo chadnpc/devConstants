@@ -13,7 +13,10 @@ then
 
 ```PowerShell
 Import-Module devConstants
+# HTTP~
 Get-HttpStatusCodes
+# exitc~
+[devconstants]::data['exitcodes']
 ```
 
 ## License
