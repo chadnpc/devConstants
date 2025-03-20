@@ -1,7 +1,7 @@
 ﻿function Get-ErrorCodes {
-  [CmdletBinding()]
+  [CmdletBinding()][OutputType([ErrorCode[]])]
   param ()
   end {
-    return [devConstants]::data['ErrorCodes']
+    return [ErrorCode[]][devConstants]::data['ErrorCodes']
   }
 }
