@@ -1,4 +1,4 @@
-ErrorString,ExitCode,Hex Value,Description
+ErrorString,Value,Hex Value,Description
 ERROR_SUCCESS,0,0x0,The operation completed successfully.
 ERROR_INVALID_FUNCTION,1,0x1,Incorrect function.
 ERROR_FILE_NOT_FOUND,2,0x2,The system cannot find the file specified.
@@ -2288,7 +2288,7 @@ ERROR_INTERNET_CONNECTION_ABORTED,12030,0x2EFE,The connection with the server ha
 ERROR_INTERNET_CONNECTION_RESET,12031,0x2EFF,The connection with the server has been reset.
 ERROR_INTERNET_FORCE_RETRY,12032,0x2F00,The function needs to redo the request.
 ERROR_INTERNET_INVALID_PROXY_REQUEST,12033,0x2F01,The request to the proxy was invalid.
-ERROR_INTERNET_NEED_UI,12034,0x2F02,A user interface or other blocking operation has been requested. Note - Windows Vista and Windows Server 2008 and earlier only. 
+ERROR_INTERNET_NEED_UI,12034,0x2F02,A user interface or other blocking operation has been requested. Note - Windows Vista and Windows Server 2008 and earlier only.
 ERROR_INTERNET_HANDLE_EXISTS,12036,0x2F04,Note  Windows Vista and Windows Server 2008 and earlier only.
 ERROR_INTERNET_SEC_CERT_DATE_INVALID,12037,0x2F05,SSL certificate date that was received from the server is bad. The certificate is expired.
 ERROR_INTERNET_SEC_CERT_CN_INVALID,12038,0x2F06,"SSL certificate common name (host name field) is incorrect?for example, if you entered www.server.com and the common name on the certificate says www.different.com."
@@ -2305,7 +2305,7 @@ ERROR_INTERNET_REDIRECT_SCHEME_CHANGE,12048,0x2F10,"The function could not handl
 ERROR_INTERNET_DIALOG_PENDING,12049,0x2F11,Another thread has a password dialog box in progress.
 ERROR_INTERNET_RETRY_DIALOG,12050,0x2F12,The dialog box should be retried.
 ERROR_INTERNET_HTTPS_HTTP_SUBMIT_REDIR,12052,0x2F14,The data being submitted to an SSL connection is being redirected to a non-SSL connection.
-ERROR_INTERNET_INSERT_CDROM,12053,0x2F15,The request requires a CD-ROM to be inserted in the CD-ROM drive to locate the resource requested. Note - Windows Vista and Windows Server 2008 and earlier only. 
+ERROR_INTERNET_INSERT_CDROM,12053,0x2F15,The request requires a CD-ROM to be inserted in the CD-ROM drive to locate the resource requested. Note - Windows Vista and Windows Server 2008 and earlier only.
 ERROR_INTERNET_FORTEZZA_LOGIN_NEEDED,12054,0x2F16,The requested resource requires Fortezza authentication.
 ERROR_INTERNET_SEC_CERT_ERRORS,12055,0x2F17,The SSL certificate contains errors.
 ERROR_INTERNET_SEC_CERT_NO_REV,12056,0x2F18,The SSL certificate was not revoked.
@@ -2313,15 +2313,15 @@ ERROR_INTERNET_SEC_CERT_REV_FAILED,12057,0x2F19,Revocation of the SSL certificat
 ERROR_FTP_TRANSFER_IN_PROGRESS,12110,0x2F4E,The requested operation cannot be made on the FTP session handle because an operation is already in progress.
 ERROR_FTP_DROPPED,12111,0x2F4F,The FTP operation was not completed because the session was aborted.
 ERROR_FTP_NO_PASSIVE_MODE,12112,0x2F50,Passive mode is not available on the server.
-ERROR_GOPHER_PROTOCOL_ERROR,12130,0x2F62,An error was detected while parsing data returned from the Gopher server. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_NOT_FILE,12131,0x2F63,The request must be made for a file locator. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_DATA_ERROR,12132,0x2F64,An error was detected while receiving data from the Gopher server. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_END_OF_DATA,12133,0x2F65,The end of the data has been reached. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_INVALID_LOCATOR,12134,0x2F66,The supplied locator is not valid. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_INCORRECT_LOCATOR_TYPE,12135,0x2F67,The type of the locator is not correct for this operation. Note - Windows Vista and Windows Server 2008 and earlier only. 
+ERROR_GOPHER_PROTOCOL_ERROR,12130,0x2F62,An error was detected while parsing data returned from the Gopher server. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_NOT_FILE,12131,0x2F63,The request must be made for a file locator. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_DATA_ERROR,12132,0x2F64,An error was detected while receiving data from the Gopher server. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_END_OF_DATA,12133,0x2F65,The end of the data has been reached. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_INVALID_LOCATOR,12134,0x2F66,The supplied locator is not valid. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_INCORRECT_LOCATOR_TYPE,12135,0x2F67,The type of the locator is not correct for this operation. Note - Windows Vista and Windows Server 2008 and earlier only.
 ERROR_GOPHER_NOT_GOPHER_PLUS,12136,0x2F68,"The requested operation can be made only against a Gopher+ server, or with a locator that specifies a Gopher+ operation. Note - Windows Vista and Windows Server 2008 and earlier only. "
-ERROR_GOPHER_ATTRIBUTE_NOT_FOUND,12137,0x2F69,The requested attribute could not be located. Note - Windows Vista and Windows Server 2008 and earlier only. 
-ERROR_GOPHER_UNKNOWN_LOCATOR,12138,0x2F6A,The locator type is unknown. Note - Windows Vista and Windows Server 2008 and earlier only. 
+ERROR_GOPHER_ATTRIBUTE_NOT_FOUND,12137,0x2F69,The requested attribute could not be located. Note - Windows Vista and Windows Server 2008 and earlier only.
+ERROR_GOPHER_UNKNOWN_LOCATOR,12138,0x2F6A,The locator type is unknown. Note - Windows Vista and Windows Server 2008 and earlier only.
 ERROR_HTTP_HEADER_NOT_FOUND,12150,0x2F76,The requested header could not be located.
 ERROR_HTTP_DOWNLEVEL_SERVER,12151,0x2F77,The server did not return any headers.
 ERROR_HTTP_INVALID_SERVER_RESPONSE,12152,0x2F78,The server response could not be parsed.
@@ -2333,7 +2333,7 @@ ERROR_INTERNET_SECURITY_CHANNEL_ERROR,12157,0x2F7D,The application experienced a
 ERROR_INTERNET_UNABLE_TO_CACHE_FILE,12158,0x2F7E,The function was unable to cache the file.
 ERROR_INTERNET_TCPIP_NOT_INSTALLED,12159,0x2F7F,The required protocol stack is not loaded and the application cannot start WinSock.
 ERROR_HTTP_NOT_REDIRECTED,12160,0x2F80,The HTTP request was not redirected.
-ERROR_HTTP_COOKIE_NEEDS_CONFIRMATION,12161,0x2F81,The HTTP cookie requires confirmation. Note - Windows Vista and Windows Server 2008 and earlier only. 
+ERROR_HTTP_COOKIE_NEEDS_CONFIRMATION,12161,0x2F81,The HTTP cookie requires confirmation. Note - Windows Vista and Windows Server 2008 and earlier only.
 ERROR_HTTP_COOKIE_DECLINED,12162,0x2F82,The HTTP cookie was declined by the server.
 ERROR_INTERNET_DISCONNECTED,12163,0x2F83,The Internet connection has been lost.
 ERROR_INTERNET_SERVER_UNREACHABLE,12164,0x2F84,The website or server indicated is unreachable.
