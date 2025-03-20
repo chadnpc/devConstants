@@ -1,7 +1,7 @@
 ﻿function Get-HttpStatusCodes {
-  [CmdletBinding()]
+  [CmdletBinding()][OutputType([Httpstatus[]])]
   param ()
   end {
-    return [devConstants]::data['HttpStatusCodes']
+    return [Httpstatus[]][devConstants]::data['HttpStatusCodes']
   }
 }
