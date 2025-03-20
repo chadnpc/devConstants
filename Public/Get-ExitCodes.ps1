@@ -1,7 +1,7 @@
 ﻿function Get-ExitCodes {
-  [CmdletBinding()]
+  [CmdletBinding()][OutputType([ExitCode[]])]
   param ()
   end {
-    return [devConstants]::data['ExitCodes']
+    return [ExitCode[]][devConstants]::data['ExitCodes']
   }
 }
